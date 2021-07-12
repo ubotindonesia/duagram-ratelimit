@@ -13,7 +13,7 @@ Inspired [Telegraf rate limit](https://github.com/telegraf/telegraf-ratelimit).
 
 ```javascript
 const { duaGram, terminal } = require("duagram");
-const rateLimit = require('./ratelimit')
+const rateLimit = require('duagram-ratelimit')
 
 const bot = new duaGram({
     api_id: 1,
