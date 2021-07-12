@@ -76,7 +76,11 @@ let pingRules = {
     window: 5 * 1000, // 5 seconds
     limit: 2, // 2 message in 5 seconds
     onLog: false, // log dont show 
-    action: pingExec, 
+    keyGenerator: (ctx) => {
+        let peerId = ctx.fromId.userId ? ctx.fromId.userId : ctx.fromId.channelId;
+        return peerId+"_cmdPing";
+    },
+    action: pingExec,
     onLimitExceeded: (ctx, next) => {
         terminal.warn('Ping Flood!');
         bot.sendMessage(ctx, 'Hi! Do you want flooding me?');

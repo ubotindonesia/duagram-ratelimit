@@ -1,6 +1,6 @@
 {
   "name": "duagram-ratelimit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rate-limiting middleware for duaGram",
   "main": "lib/2ratelimit.js",
   "directories": {
