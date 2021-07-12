@@ -1,0 +1,32 @@
+{
+  "name": "duagram-ratelimit",
+  "version": "1.0.0",
+  "description": "Rate-limiting middleware for duaGram",
+  "main": "lib/2ratelimit.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ubotindonesia/duagram-ratelimit.git"
+  },
+  "keywords": [
+    "telegram",
+    "duagram",
+    "ratelimit",
+    "nodejs",
+    "bot",
+    "telegram",
+    "userbot"
+  ],
+  "author": "Hasanudin H Syafaat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ubotindonesia/duagram-ratelimit/issues"
+  },
+  "homepage": "https://github.com/ubotindonesia/duagram-ratelimit#readme"
+}
