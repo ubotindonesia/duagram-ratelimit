@@ -63,6 +63,11 @@ function keyGenerator(ctx) {
 ### Limit Ping
 
 ```javascript
+const { duaGram, terminal } = require("duagram");
+const rateLimit = require('duagram-ratelimit')
+
+const bot = new duaGram({ .. });
+
 let pingExec = (ctx) => {
     bot.sendMessage(ctx, 'pong!');
 }
