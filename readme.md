@@ -88,4 +88,6 @@ let pingRules = {
 }
 
 bot.cmd('ping', rateLimit(pingRules));
+
+bot.start();
 ```
